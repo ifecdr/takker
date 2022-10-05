@@ -1,11 +1,15 @@
 import React from 'react'
-import NavBar from '../Copmonents/NavBar'
+import Contents from '../Components.js/Contents'
+import NavBar from '../Components.js/NavBar'
+import Showcase from '../Components.js/Showcase'
 
-function LandingPage() {
+
+export default function landingPage() {
   return (
     <div>
-      <NavBar/>
+        <NavBar/>
+        <Showcase/>
+        <Contents/>
     </div>
   )
 }
-export default LandingPage;
