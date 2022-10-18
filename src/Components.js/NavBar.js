@@ -14,7 +14,7 @@ export default function NavBar() {
         <div className='logo'><img src={logo} alt='Logo'/></div>
         <ul className='nav-1'>
 
-            <Link to='/'><li className='active'><span className='undl'> Ho</span>me </li></Link>
+              <Link to='/'><li className='active'><span className='undl'> Ho</span>me </li></Link>
               <Link to='/product'><li><span className='hover'> Prod</span>uct </li></Link>
               <Link to='/FAQ'><li><span className='hover'> FA</span>Q </li></Link>
               <Link to='/contact'><li><span className='hover'> Cont</span>act </li></Link>
