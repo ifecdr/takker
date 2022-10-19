@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const merchants1 = new URL("../Uploads/merchants1.png", import.meta.url)
 const merchants2= new URL("../Uploads/merchants2.png", import.meta.url)
@@ -42,7 +43,7 @@ export default function Contents() {
                     <div className='text'>
                         <p className='p1'>Picture Hanging Kit</p>
                         <p className='p2'>Suitable for hanging pictures and mirrors up to 10kgs/22lbs and canvas prints of all sizes.</p>
-                        <p className='p4'>Shop now 	&rarr;</p>
+                        <Link to='/product'><p className='p4'>Shop now 	&rarr;</p></Link>
                     </div>
                 </div>
                 <div className='kit'>
@@ -50,7 +51,7 @@ export default function Contents() {
                     <div className='text'>
                         <p className='p1'>Picture Hanging Kit</p>
                         <p className='p2'>Suitable for hanging pictures and mirrors up to 10kgs/22lbs and canvas prints of all sizes.</p>
-                        <p className='p4'>Shop now &rarr;</p>
+                        <Link to='/product'><p className='p4'>Shop now &rarr;</p></Link>
 
                     </div>
                 </div>
@@ -105,7 +106,7 @@ export default function Contents() {
                 <div className='text-con'>
                     <h3>BUY FROM US</h3>
                     <p>We want to make your indoor&outdoor hanging simple and easy</p>
-                    <button>Start Shopping</button>
+                    <Link to='/product'><button>Start Shopping</button></Link>
                 </div>
             </div>
             <div>

@@ -21,7 +21,9 @@ margin-left: 100px;
     /* width: 145px; */
 
 }
-
+Link{
+    text-decoration: none;
+}
 .nav-bar ul li {
     display: inline-block;
     font-family: 'Poppins';
@@ -326,11 +328,21 @@ margin-left: 100px;
     color: #767676;
     margin-right: 47px;
 }
-/* .footers-info{
+.footers-info{
     background-color: #F5F5F5;
-    margin: 0px 72px ;
-    height: 300px;
+    margin: 0px 70px ;
+    padding: 72px 30px 0px 111px;
+    height: 480px;
     display: flex;
     justify-content: space-around;
-    align-items: center;
-} */
+    /* align-items: center; */
+}
+.details-1 img{
+    margin-right: 5px;
+}
+.details-1{
+    width: 350px;
+}
+.details-4{
+    width:230px;
+}
